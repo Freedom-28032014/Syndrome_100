@@ -19,4 +19,8 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: Build with Maven
+<<<<<<< HEAD
       run: mvn -B -e verifyf
+=======
+      run: mvn -B -e verify
+>>>>>>> 456492074ebbb5148d6193f4c7b11a24f6d65077
